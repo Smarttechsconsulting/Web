@@ -121,6 +121,20 @@
             }
         }
     });
+
+    //Business Flip card click
+  $(document).ready(function() {
+    // Al hacer click en el icono "arrow_forward"
+        $(".icon-view-back").on("click", function() {
+            $(this).closest(".flip-card").addClass("flipped");
+        });
+
+        // Al hacer click en el icono "arrow_back"
+        $(".icon-view-front").on("click", function() {
+            $(this).closest(".flip-card").removeClass("flipped");
+        });
+    });
+
     
 })(jQuery);
 

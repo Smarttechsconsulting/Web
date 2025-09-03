@@ -271,28 +271,6 @@ h6,
     height: 3px;
 }
 
-/*.section-title::after {
-    position: absolute;
-    content: "";
-    width: 6px;
-    height: 5px;
-    bottom: 0px;
-    background: #FFFFFF;
-    -webkit-animation: section-title-run 5s infinite linear;
-    animation: section-title-run 5s infinite linear;
-    animation:none;
-}*/
-
-/*.section-title.section-title-sm::after {
-    width: 4px;
-    height: 3px;
-}*/
-
-/*.section-title.text-center::after {
-   -webkit-animation: section-title-run-center 5s infinite linear; 
-     animation: section-title-run-center 5s infinite linear; 
-     animation: none;
-}*/
 .section-title::before {
     position: absolute;
     content: "";
@@ -310,8 +288,7 @@ h6,
 }
 
 .section-title.section-title-sm::after {
-    /* -webkit-animation: section-title-run-sm 5s infinite linear; */
-    /* animation: section-title-run-sm 5s infinite linear; */
+    
     animation: none;
 }
 
@@ -528,8 +505,7 @@ h6,
   text-align: justify;
 }
 
-/* staffing solutions cuadros 
-/* Estilos para listas */
+
 ul {
   padding-left: 1.2rem;
 }
@@ -565,3 +541,4 @@ ul li {
 .bg-light {
   background-color: #f8fbfd !important;
 }
+
